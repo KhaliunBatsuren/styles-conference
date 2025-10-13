@@ -54,7 +54,7 @@ table {
 */
 body {
     color: #888;
-    font:300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; ;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; ;
 }
 
 /*
@@ -146,6 +146,7 @@ h5 {
     color: #a9b2b9;
     font-size: 14px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 strong {
   font-weight: 400;
@@ -164,9 +165,13 @@ a:hover {
 }
 a {
   color: #648880;
+  text-decoration: none;
 }
 .teaser a:hover h3 {
   color: #a9b2b9;
+}
+p a {
+  border-bottom: 1px solid #dfe2e5;
 }
 /*
   ========================================
@@ -196,13 +201,19 @@ a {
   font-size: 48px;
   line-height: 44px;
   padding: 40px 0 22px 0;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  font-weight: 100;
 }
 .tagline {
   margin: 66px 0 22px 0;
+  text-align: right;
 }
 .primary-nav {
   font-size: 14px;
   font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
 }
 
 /*
@@ -231,12 +242,21 @@ a {
 .hero {
   padding: 22px 80px 66px 80px;
   line-height: 44px;
+  text-align: center;
 }
 .hero h2 {
     font-size: 36px;
 }
 .hero p {
     font-size: 24px;
+    font-weight: 100;
 }
-
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+.nav {
+  text-align: right;
+}
 
